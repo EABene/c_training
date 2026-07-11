@@ -7,7 +7,7 @@ void bt_putchar(char c) // Funktionsdefinition, void = gibt nichts zurück
 
 int main(void)
 {
-    bt_putchar('4');
+    bt_putchar('9');
     bt_putchar('2');
     bt_putchar('\n');
     return(0);
