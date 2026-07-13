@@ -5,6 +5,7 @@ void bt_putchar(char c) // Funktionsdefinition, void = gibt nichts zurück
     write(1, &c, 1);    // 1 = schreibe auf den Bildschirm, &c = Speicherort von c
 }                       // 1 = Anzahl Zeichen
 
+
 int main(void)
 {
     bt_putchar('9');
