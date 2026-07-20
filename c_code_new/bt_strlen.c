@@ -21,7 +21,7 @@ int main(void)
 
     printf("Length: %d\n", bt_strlen(text));        // text speichert die Adresse des ersten Zeichens
 
-    printf("erstes Zeichen so:  %c\n", text[0]);
+    printf("erstes Zeichen so:  %c\n", text[0]); // those two do exactly the same. text[0] == *text, point to first char of string
     printf("erstes Zeichen so:  %c\n", *text);
 
     return (0);
