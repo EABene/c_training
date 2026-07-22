@@ -1,20 +1,24 @@
-#include <stdio.h>
+#include <stdio.h> // 100% self coded
 
 
 int bt_strlen(char *x)
 {
+    int i;
+    i = 0;
 
+    while(x[i] != '\0')
+    {
+        i++;
+    }
+
+    return (i);
 }
-
-
 
 int main(void)
 {
-    int x;
+    char *x = "Hallo";
 
-    x = 10;
 
-    printf("This will be printed: %d\n", x);
-
-return (0);
+    printf("Length of given string: %d\n", bt_strlen(x));
+    return (0);
 }
