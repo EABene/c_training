@@ -17,7 +17,7 @@ int bt_strlen(char *str)  //*str = das Zeichen, auf das str zeigt
 
 int main(void)
 {
-    char *text = "Hallo";                           // leg "Hallo" irgendwo in den Speicher, und lass Text auf den Anfang zeigen.   
+    char *text = "Hallo";                           // leg "Hallo" irgendwo in den Speicher, und lass text auf den Anfang zeigen.   
 
     printf("Length: %d\n", bt_strlen(text));        // text speichert die Adresse des ersten Zeichens
 
