@@ -16,9 +16,7 @@ void bt_putstr_reverse(char *str)
         i--;
     }
     printf("\n");
-
 }
-
 
 
 int main(void)
