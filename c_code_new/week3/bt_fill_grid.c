@@ -13,7 +13,6 @@ int main(void)
         spalte = 0;
         while (spalte < 3)
         {
-            // STELLE 1: setze gitter[zeile][spalte] auf zeile * spalte
             gitter[zeile][spalte] = zeile * spalte;
             spalte++;
         }
@@ -27,7 +26,6 @@ int main(void)
         spalte = 0;
         while (spalte < 3)
         {
-            // STELLE 2: gib gitter[zeile][spalte] aus, mit "%d " und Leerzeichen
             printf("%d ", gitter[zeile][spalte]);
             spalte++;
         }
