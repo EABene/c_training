@@ -23,7 +23,6 @@ int main(void)
 
 
     //Print grid
-
     row = 0;
     while (row < 4)
     {
@@ -36,7 +35,5 @@ int main(void)
         printf("\n");
         row++;
     }
-
-
     return (0);
 }
