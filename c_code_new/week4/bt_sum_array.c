@@ -20,7 +20,7 @@ int bt_sum_array(int *arr, int length)
 
 int main(void)
 {
-    int  x[5] = {1, 2, 3, 4, 5};
+    int x[5] = {1, 2, 3, 4, 5};
     int length = 5;
     int y;
 
