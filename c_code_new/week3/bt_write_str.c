@@ -10,7 +10,7 @@ int bt_str_len(char *str)
         i++;
     }
 
-    return(i);
+    return (i);
 }
 
 void bt_write_str(char *str)
@@ -27,5 +27,5 @@ int main(void)
 {
     bt_write_str("Hello everybody");
     write(1, "\n", 1);
-    return(0);
+    return (0);
 }
